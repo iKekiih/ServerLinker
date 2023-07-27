@@ -1,0 +1,16 @@
+name: Serverlinker
+version: 2.0.1
+author: KekiDev
+main: com.soykeki.Main  # Reemplaza "tu.paquete.plugin" con el nombre de tu paquete
+api-version: 1.17 # La versión de Spigot/Bukkit para la cual está diseñado el plugin
+
+commands:
+  store:
+    description: Muestra el enlace a la tienda.
+  discord:
+    description: Muestra el enlace al servidor de Discord.
+  website:
+    description: Muestra el enlace al sitio web.
+  ts:
+    description: Muestra el enlace al servidor de TeamSpeak.
+
