@@ -1,4 +1,4 @@
-package com.soykeki; // Reemplaza "tu.paquete.plugin" con el nombre de tu paquete
+package com.soykeki;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -12,10 +12,9 @@ public class Main extends JavaPlugin implements CommandExecutor {
 
     @Override
     public void onEnable() {
-        saveDefaultConfig(); // Crea config.yml si no existe
+        saveDefaultConfig();
         config = getConfig();
 
-        // Registrando comandos
         getCommand("store").setExecutor(this);
         getCommand("discord").setExecutor(this);
         getCommand("website").setExecutor(this);
